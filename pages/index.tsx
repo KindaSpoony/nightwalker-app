@@ -1,4 +1,4 @@
-import NightwalkerDashboard from '../components/NightwalkerDashboard';
-export default function Home() {
-  return <NightwalkerDashboard />;
-}
+import Loader from "@/components/ui/Loader";
+
+// ...
+{loading && <Loader text="Initiating Symbolic Bootstrap..." />}
